@@ -124,4 +124,7 @@ class Population:
             else:
                 self.log.logger.info("\nBest chromosome: {}".format(self.elite.all_genes_vals()))
             plt.plot(self.fitness_across_generations)
+            plt.xlabel("Generations")
+            plt.ylabel("Total Value")
+            plt.grid()
             plt.show(block=True)
