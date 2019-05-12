@@ -48,7 +48,7 @@ There will be 2 outputs:
 
 1. A graph showing the progress over the iterations (generations)
 
-![fitness_over_generations](https://github.com/ShaikeA/Genetic-Algorithm-Knapsack-problem/blob/master/fitness_over_generations.png)
+![fitness_over_generations](https://github.com/ShaikeA/Genetic-Algorithm-Knapsack-problem/blob/master/fitness_over_gen.png)
 
 2. The algorithm's results every 100 iterations and the best found chromosomes:
 It consists of a list of all genes where each gene is represented by (id, value, weight).
